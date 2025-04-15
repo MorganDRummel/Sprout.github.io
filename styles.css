@@ -8,12 +8,10 @@ body {
   color: #2f3e34;
   line-height: 1.6;
 }
-
 header {
   background-color: #E3F0DA;
   padding: 20px 0;
 }
-
 .header-flex {
   display: flex;
   justify-content: space-between;
@@ -22,7 +20,6 @@ header {
   margin: 0 auto;
   padding: 0 20px;
 }
-
 footer {
   background-color: #CFEAD6;
   color: #054D3B;
@@ -30,12 +27,10 @@ footer {
   padding: 20px;
   margin-top: 40px;
 }
-
 main {
   padding: 20px;
   text-align: center;
 }
-
 /* Button */
 .cta-button {
   background-color: #054D3B;
@@ -44,11 +39,9 @@ main {
   border-radius: 30px;
   font-size: 1rem;
 }
-
 .cta-button:hover {
   background-color: #8FBD4F;
 }
-
 /* Navigation */
 .nav-links {
   list-style: none;
@@ -56,34 +49,28 @@ main {
   flex-wrap: wrap;
   gap: 20px;
 }
-
 .nav-links a {
   color: #054D3B;
   font-weight: bold;
 }
-
 .nav-links a:hover {
   color: #8FBD4F;
 }
-
 /* Hero */
 .hero {
   text-align: center;
   background-color: #cfead6;
   padding: 60px 20px;
 }
-
 .hero h1 {
   font-family: 'Playfair Display', serif;
   font-size: 3rem;
   margin-bottom: 10px;
 }
-
 .hero p {
   font-size: 1rem;
   margin-bottom: 20px;
 }
-
 /* Image + Text Flex Section */
 .flex-container {
   display: flex;
@@ -91,10 +78,32 @@ main {
   gap: 20px;
   margin-bottom: 40px;
 }
-
 .flex-container img {
   max-width: 300px;
   width: 100%;
   height: auto;
   border-radius
 }
+ .social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.social-links a {
+  font-weight: bold;
+  color:#054D3B;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 6px 12px;
+  border: 1px solid #054D3B;
+  border-radius: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.social-links a:hover {
+  background-color: #BDD982;
+  color: #054D3B;
+  border-color: #BDD982;
+  }
