@@ -213,3 +213,68 @@ main {
     padding-left: 20px;
   }
 }
+main.container {
+  padding-top: 2rem;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  color: #2f3e34;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+main.container > p {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.1rem;
+  color: #444;
+  max-width: 700px;
+  margin-bottom: 2rem;
+}
+
+.product-section {
+  background-color: #f9fdf7;
+  border-left: 5px solid #a7d28d;
+  padding: 1.5rem 2rem;
+  margin-bottom: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.product-section h2 {
+  font-family: 'Playfair Display', serif;
+  color: #5c7c4c;
+  font-size: 1.5rem;
+  margin-bottom: 0.8rem;
+}
+
+.product-section ul {
+  list-style: disc inside;
+  font-family: 'Quicksand', sans-serif;
+  line-height: 1.7;
+  color: #333;
+}
+
+.shop-feature {
+  background-color: #eef7ea;
+  padding: 1.5rem 2rem;
+  border-radius: 12px;
+  margin-top: 2rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.04);
+}
+
+.shop-feature h2 {
+  font-family: 'Playfair Display', serif;
+  color: #4f6b3f;
+  margin-bottom: 0.8rem;
+}
+
+.shop-feature a {
+  color: #7bb661;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.shop-feature a:hover {
+  color: #5c8b46;
+}
