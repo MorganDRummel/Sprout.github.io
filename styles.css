@@ -346,3 +346,8 @@ main.container > p {
     padding-left: 20px;
   }
 }
+/* Center headings and paragraphs within the main container */
+main.container h1,
+main.container p {
+  text-align: center;
+}
